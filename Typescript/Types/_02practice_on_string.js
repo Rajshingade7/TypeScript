@@ -1,5 +1,6 @@
 var msg = "hello";
 console.log(msg);
+//@ts-ignore
 var firstname = "raj";
 var lastname = "shingade";
 var fullname = firstname.concat(lastname);
@@ -7,3 +8,21 @@ console.log(fullname);
 var sentence = "hello brother raj this side";
 var sentencelength = sentence.length;
 console.log(sentencelength);
+var text = "Hello I am here to do the task and doing the next also";
+var uppercaseText = text.toUpperCase();
+var lowercaseText = uppercaseText.toLowerCase();
+console.log(uppercaseText);
+console.log(lowercaseText);
+var longtext = "hello I am raj shingade";
+var shortText = longtext.slice(0, 10);
+var substring = longtext.substring(0, 10);
+console.log(shortText);
+console.log(substring);
+var str1 = "hello brother";
+var str2 = "hello sister";
+var result = str1 == str2;
+console.log(result);
+var product = "acer laptop";
+var price = 10000;
+var productdetails = "the product name is ".concat(product, " and the price is ").concat(price);
+console.log(productdetails);
