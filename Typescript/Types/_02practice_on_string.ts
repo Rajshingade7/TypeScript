@@ -37,3 +37,6 @@ let price:number=10000;
 let productdetails:string=`the product name is ${product} and the price is ${price}`;
 console.log(productdetails);
 
+
+
+
