@@ -1,5 +1,6 @@
+"use strict";
 //True of false only
-var isMyNameraj = true;
+let isMyNameraj = true;
 isMyNameraj = false;
 // isMyNameraj="yes";//It is not possible for this type
 function isEven(num) {
